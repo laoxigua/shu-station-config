@@ -1,3 +1,9 @@
 demo:
   name: config-client-update
   version: v-0.0.4
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: 'jdbc:mysql://localhost:3306/shu-station?rewriteBatchedStatements=true&setUnicode=true&characterEncoding=utf8'
+    username: root
+    password: '1q2w3e4r'
