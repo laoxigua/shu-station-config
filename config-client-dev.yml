@@ -7,3 +7,6 @@ spring:
     url: 'jdbc:mysql://localhost:3306/shu-station?rewriteBatchedStatements=true&setUnicode=true&characterEncoding=utf8'
     username: root
     password: '1q2w3e4r'
+  jpa:
+    open-in-view: true
+    database-platform: org.hibernate.dialect.MySQL57InnoDBDialect
